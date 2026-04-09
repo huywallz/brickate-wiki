@@ -11,6 +11,7 @@ Provides the core interface for managing the current server state and communicat
 ## Events
 | | | |
 |-|-|-|
+| [bk.server.onOutdated](?p=bk.server.onOutdated) | Triggered when the server is outdated and no longer supported. | 7.3+ |
 | [bk.server.onPlayerAdded](?p=bk.server.onPlayerAdded) | Triggered when a player joins. | 7.0+ |
 | [bk.server.onPlayerRemoved](?p=bk.server.onPlayerRemoved) | Triggered when a player leaves. | 7.0+ |
 | [bk.server.onReceived](?p=bk.server.onReceived) | Triggered when a message is received. | 7.0+ |

@@ -5,8 +5,11 @@ const path = params.get('p');
 let targetFile;
 if (path) {
     const formatted = path.replaceAll('.', '/');
+    const arr = formatted.split("/");
+    if (arr[0] === "tutorials") arr.shift();
     targetFile = `files/${formatted}.md`;
-    document.getElementById("title").innerText = path;
+    const titleE = document.getElementById("title");
+    titleE.innerText = arr.join(".");
 } else {
     targetFile = "index.md";
 }

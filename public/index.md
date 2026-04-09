@@ -10,6 +10,7 @@ Want to create a game? Mess around with an idea? Learn how to script in Brickate
 
 * [bk](?p=bk) (The module)
 * [Cheatsheet](?p=Cheatsheet)
+* [Hosting](?p=tutorials/Hosting)
 
 ## Lua
 Never used Lua before? It's a great language! While this manual doesn't teach Lua itself, there are many excellent resources available to help you get started.

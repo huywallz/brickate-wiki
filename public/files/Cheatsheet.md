@@ -40,6 +40,7 @@ bk.server.getConfig(): table 	                                                  
 bk.server.getPlayers(): { bk.object } 	                                                -- Returns list of all player IDs.
 bk.server.kick(plrId: bk.object, msg: string)                                           -- Removes a player from the server.
 bk.server.send(plrId: bk.object, data: string)                                          -- Sends data to a specific player.
+bk.server.onOutdated(callback: function(): void): void                                  -- Triggered when the server is outdated and no longer supported.
 bk.server.onPlayerAdded(callback: function(plrId: number): void): void                  -- Triggered when a player joins.
 bk.server.onPlayerRemoved(callback: function(plrId: number): void): void                -- Triggered when a player leaves.
 bk.server.onReceived(callback: function(plrId: bk.object, data: string): void): void    -- Triggered when a message is received.

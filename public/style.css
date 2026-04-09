@@ -90,3 +90,33 @@ pre {
 
 .right-bar h2 { color: #396a9f; margin-bottom: 10px; }
 .right-bar a { color: #396a9f; margin-left: 1rem; }
+
+.doc-image {
+	margin: 10px 0px;
+	border: 1px black solid;
+}
+
+
+.warning-box {
+	color: orange;
+	background: #fff7ee;
+	padding: 10px;
+	border: 1px solid orange;
+	margin-bottom: 15px;
+}
+
+.error-box {
+	color: red;
+	background: #ffeeee;
+	padding: 10px;
+	border: 1px solid red;
+	margin-bottom: 15px;
+}
+
+.success-box {
+	color: green;
+	background: #eeffee;
+	padding: 10px;
+	border: 1px solid green;
+	margin-bottom: 15px;
+}
